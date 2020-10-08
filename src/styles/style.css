@@ -1,1 +1,30 @@
 /** CSS STYLE **/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	
+	/* мог использовать margin: 0 auto? */
+	display: flex; 
+    justify-content: center; 
+	 align-items: center;
+	 max-width: 1110px;
+}
+
+h1, h2, h3 {
+	line-height: 1.2em;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+h3 {
+	font-size: 34px;
+}
