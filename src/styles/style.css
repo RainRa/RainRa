@@ -2,19 +2,23 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box
 }
 
 section {
-	
+
 	/* мог использовать margin: 0 auto? */
-	display: flex; 
-    justify-content: center; 
-	 align-items: center;
-	 max-width: 1110px;
-	 margin: 100px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0px;
+	flex-basis: 1110px;
 }
 
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
 	line-height: 1.2em;
 }
 
@@ -28,4 +32,19 @@ h2 {
 
 h3 {
 	font-size: 34px;
+}
+
+.bg {
+	position: relative;
+}
+
+.bg:before {
+	content: '';
+	background-image: url(/images/background.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 1440px;
+	height: 1005px;
+	opacity: 90%;
 }
