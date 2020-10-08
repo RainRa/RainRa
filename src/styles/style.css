@@ -11,6 +11,7 @@ section {
     justify-content: center; 
 	 align-items: center;
 	 max-width: 1110px;
+	 margin: 100px 0px;
 }
 
 h1, h2, h3 {
