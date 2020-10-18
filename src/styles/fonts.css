@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "OpenSans";
-	src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+	src: url(/fonts/OpenSans-Regular.ttf) format("truetype");
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -9,7 +9,7 @@
 }
 @font-face {
 	font-family: "Neucha-Regular";
-	src: url(../fonts/Neucha-Regular.ttf) format("truetype");
+	src: url(/fonts/Neucha-Regular.ttf) format("truetype");
 	font-style: normal; /*font-style, font-weight Нужно?*/
 	font-weight: normal;
 	font-size: 16px;

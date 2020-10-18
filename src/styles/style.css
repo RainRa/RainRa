@@ -2,24 +2,113 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box
+	box-sizing: border-box;
 }
 
-section {
 
+section {
 	/* мог использовать margin: 0 auto? */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 100px 0px;
+	flex-grow: 1;
 	flex-basis: 1110px;
+	height: 100vh;
 }
 
+.relative {
+	position: relative;
+}
+
+
+.relative:before {
+	content: '';
+	background-image: url(/images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	display: block;
+	width: 1440px;
+	height: 1005px;
+	opacity: 10%;
+}
+
+.bg-light {
+	background: var(--light-coloured);
+	position: absolute;
+	width: 1440px;
+	height: 1005px;
+	display: block;
+	opacity: 40%;
+}
+
+.l-heigh {
+	line-height: 120%;
+}
+
+.cognitive-color {
+	color: var(--main-color);
+}
+
+.header-block1 {
+	position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 635px;
+  height: 172px;
+  top: -250px;
+  left: 522px;
+
+}
+
+.header-block2 {
+	position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+  left: 165px;
+  top: -125px;
+	
+}
+
+.text-1 {
+	position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+.t-block-size {
+}
+
+.header-img {
+	position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -150px;
+  right: 150px;
+  
+}
+
+.header-img-size {
+	width: 1155px;
+	height: 560px;
+	object-fit: cover;
+}
 
 h1,
 h2,
 h3 {
 	line-height: 1.2em;
+	font-family: "Neucha-Regular";
+	font-style: normal; /*font-style, font-weight Нужно?*/
+	font-weight: normal;
+	line-height: 1.6em;
+	color: #2A2626;  
 }
 
 h1 {
@@ -32,19 +121,4 @@ h2 {
 
 h3 {
 	font-size: 34px;
-}
-
-.bg {
-	position: relative;
-}
-
-.bg:before {
-	content: '';
-	background-image: url(/images/background.png) ;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: absolute;
-	width: 1440px;
-	height: 1005px;
-	opacity: 90%;
 }
