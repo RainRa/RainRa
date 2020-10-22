@@ -78,7 +78,15 @@ section {
 }
 
 .main-text1 {
+	font-family: "OpenSans";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
 	padding-right: 30px;
+	line-height: 160%;
+	color: #2A2626;
+	min-width: 540px;
+	max-height: 130px;
 }
 
 .button {
