@@ -5,101 +5,6 @@
 	box-sizing: border-box;
 }
 
-
-section {
-	/* мог использовать margin: 0 auto? */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-grow: 1;
-	flex-basis: 1110px;
-	height: 100vh;
-}
-
-.relative {
-	position: relative;
-}
-
-
-.relative:before {
-	content: '';
-	background-image: url(/images/background.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: absolute;
-	display: block;
-	width: 1440px;
-	height: 1005px;
-	opacity: 10%;
-}
-
-.bg-light {
-	background: var(--light-coloured);
-	position: absolute;
-	width: 1440px;
-	height: 1005px;
-	display: block;
-	opacity: 40%;
-}
-
-.l-heigh {
-	line-height: 120%;
-}
-
-.cognitive-color {
-	color: var(--main-color);
-}
-
-.header-block1 {
-	position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 635px;
-  height: 172px;
-  top: -250px;
-  left: 522px;
-
-}
-
-.header-block2 {
-	position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  z-index: 1;
-  left: 165px;
-  top: -125px;
-	
-}
-
-.text-1 {
-	position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-}
-.t-block-size {
-}
-
-.header-img {
-	position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: -150px;
-  right: 150px;
-  
-}
-
-.header-img-size {
-	width: 1155px;
-	height: 560px;
-	object-fit: cover;
-}
-
 h1,
 h2,
 h3 {
@@ -108,7 +13,7 @@ h3 {
 	font-style: normal; /*font-style, font-weight Нужно?*/
 	font-weight: normal;
 	line-height: 1.6em;
-	color: #2A2626;  
+	color: var(--dark);    
 }
 
 h1 {
@@ -122,3 +27,124 @@ h2 {
 h3 {
 	font-size: 34px;
 }
+
+p {
+	font-family: "OpenSans"; 
+	font-size: 16px;
+	line-height: 16px;
+
+}
+
+section {
+	/* мог использовать margin: 0 auto? */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: max-content;
+  max-width: 1110px;
+  height: max-content;
+	height: 100vh;
+	
+  margin: auto;
+}
+
+.bg-light {
+	background: var(--light-coloured);
+	position: absolute;
+	width: 1440px;
+	height: 1005px;
+	display: block;
+	opacity: 40%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	z-index: -1;
+}
+
+.header-block1 {
+  width: 635px;
+  height: 172px;
+  padding-top: 121px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: start;
+	position: relative;
+	top: -125px;
+}
+
+.main-text1 {
+	padding-right: 30px;
+}
+
+.button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	bottom: 100px;
+	left: 75px;
+padding: 11px 0px 0px 24px;
+outline:none;
+}
+
+.button-style {
+	outline: none; 
+	background: #FE8A02;
+	padding: 11px 24px;
+	font-family: "OpenSans";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 160%;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.relative:before {
+	content: '';
+	background-image: url(/images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	display: block;
+	width: 1440px;
+	height: 1005px;
+	opacity: 10%;
+	top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+
+
+.l-heigh {
+	line-height: 120%;
+	color: var(--dark)
+}
+
+.cognitive-color {
+	color: var(--main-color);
+}
+
+
+.header-img {
+position: relative;
+top: -115px;
+left: 285px;
+z-index: -1;
+}
+
+.header-img-size {
+	width: 1155px;
+	height: 560px;
+	object-fit: cover;
+}
+
