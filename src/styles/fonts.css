@@ -7,24 +7,14 @@
 	line-height: 1.6em;
 	color: #2A2626;
 }
+
 @font-face {
 	font-family: "Neucha-Regular";
 	src: url(/fonts/Neucha-Regular.ttf) format("truetype");
-	font-style: normal; /*font-style, font-weight Нужно?*/
+	font-style: normal;
+	/*font-style, font-weight Нужно?*/
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 1.6em;
-	color: #2A2626;  
-}
-
-:root {
-	--white: #fff;
-	--translucent-white: #d7ccc0;
-	--light-coloured: #f5f4f0;
-	--main-color: #fe8a02;
-	--main-dark: #42413c;
-	--dark: #2a2626;
-	--translucent-dark: #908d8b;
-	--brown: #b09a81;
-	--blue: #1085c5;
+	color: #2A2626;
 }
