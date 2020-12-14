@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
   "main": "",
-  "dependencies": {},
+  "dependencies": {
+    "htmllint": "^0.8.0"
+  },
   "devDependencies": {
+    "gulp-htmllint": "0.0.19",
     "htmlhint": "^0.14.2",
     "stylelint": "^13.7.2",
     "stylelint-config-rational-order": "^0.1.2",

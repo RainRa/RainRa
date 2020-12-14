@@ -10,3 +10,7 @@ rules:
   plugin/rational-order:
     - true
     - empty-line-between-groups: true
+    
+"css.validate": false,
+"less.validate": false,
+"scss.validate": false
