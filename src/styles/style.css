@@ -47,42 +47,58 @@ h3,
   line-height: 1.2em;
 }
 
-.cognitive-title {
-  font-weight: normal;
-  font-size: 24px;
-  font-family: "Neucha", sans-serif;
-  line-height: 1.2em;
-}
-
 p {
-  color: var(--dark);
+	color: var(--dark);
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-52 {
+  font-size: 52px;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.cognitive-title {
+	font-weight: normal;
+	font-size: 24px;
+	font-family: "Neucha", sans-serif;
+	line-height: 1.2em;
 }
 
 .margin-top-10 {
-  margin-top: 10px;
+	margin-top: 10px;
 }
 
 .margin-top-16 {
-  margin-top: 16px;
+	margin-top: 16px;
 }
 
 .margin-top-25 {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 
 .margin-top-30 {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 
 .margin-top-60 {
-  margin-top: 60px;
+	margin-top: 60px;
 }
 
 .margin-top-100 {
@@ -91,6 +107,10 @@ a {
 
 .margin-top-200 {
   margin-top: 200px;
+}
+
+.margin-bottom-25 {
+  margin-bottom: 25px;
 }
 
 .margin-left-30 {
@@ -161,7 +181,7 @@ a {
   text-align: left;
   width: 350px;
   margin: 11px 8px 11px 8px;
-  padding: 24px 24px 40px 24px;
+  padding: 24px;
 }
 
 .nav-title-elm {
@@ -295,9 +315,10 @@ a {
   font-family: "Neucha", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 54px;
+  font-size: 64px;
   line-height: 70px;
-  padding-bottom: 25px;
+	padding-bottom: 40px;
+  line-height: 1;
   color: var(--soft-dark);
 }
 
@@ -313,12 +334,12 @@ a {
 
 .placeholder1 {
   width: 394px;
-  height: 54px;
+  height: 50px;
   padding: 15px;
   font-size: 17px;
 }
 
-.button-style {
+.button-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
