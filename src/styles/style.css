@@ -316,7 +316,6 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
-  line-height: 70px;
   padding-bottom: 40px;
   line-height: 1;
   color: var(--soft-dark);
@@ -344,7 +343,7 @@ a {
   flex-direction: column;
   justify-content: center;
   width: 70px;
-  height: 54px;
+  height: 50px;
   border: none;
   background: var(--orange);
 }
@@ -357,7 +356,7 @@ a {
   margin-bottom: 8px;
 }
 
-.button-style::before {
+.button-footer::before {
   content: "";
   background-image: url(../images/send.svg);
   width: 20px;
@@ -379,10 +378,6 @@ a {
 
 .l-heigh-120 {
   line-height: 120%;
-}
-
-.f-size-52 {
-  font-size: 52px;
 }
 
 .dark-color {
@@ -469,4 +464,8 @@ a {
 .half-block {
   flex-grow: 1;
   width: calc(50% - 20px);
+}
+
+.text-underline {
+  text-decoration: underline;
 }
