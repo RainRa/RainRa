@@ -48,14 +48,14 @@ h3,
 }
 
 p {
-	color: var(--dark);
+  color: var(--dark);
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .font-size-12 {
@@ -75,30 +75,30 @@ a {
 }
 
 .cognitive-title {
-	font-weight: normal;
-	font-size: 24px;
-	font-family: "Neucha", sans-serif;
-	line-height: 1.2em;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
 }
 
 .margin-top-10 {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .margin-top-16 {
-	margin-top: 16px;
+  margin-top: 16px;
 }
 
 .margin-top-25 {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 
 .margin-top-30 {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .margin-top-60 {
-	margin-top: 60px;
+  margin-top: 60px;
 }
 
 .margin-top-100 {
@@ -317,7 +317,7 @@ a {
   font-weight: normal;
   font-size: 64px;
   line-height: 70px;
-	padding-bottom: 40px;
+  padding-bottom: 40px;
   line-height: 1;
   color: var(--soft-dark);
 }
