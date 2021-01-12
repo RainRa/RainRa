@@ -392,8 +392,13 @@ a {
   border-right: 0;
 }
 
-.mail-input-field::placeholder {
-  color: rgba(0, 0, 0, 0.2);
+.footer-email-label {
+  margin-bottom: 8px;
+
+  font-weight: 400;
+  font-size: 18px;
+  font-family: var(--main-font);
+  font-style: normal;
 }
 
 .button-footer {
@@ -406,15 +411,6 @@ a {
   background: var(--orange);
   border: none;
   cursor: pointer;
-}
-
-.footer-email-label {
-  margin-bottom: 8px;
-
-  font-weight: 400;
-  font-size: 18px;
-  font-family: var(--main-font);
-  font-style: normal;
 }
 
 .button-footer::before {
@@ -455,4 +451,8 @@ a {
 .rules-text {
   font-size: 12px;
   line-height: 1.6;
+}
+
+.mail-input-field::placeholder {
+  color: rgba(0, 0, 0, 0.2);
 }
