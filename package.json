@@ -4,7 +4,9 @@
 	"description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
 	"main": "",
 	"extends": "stylelint-config-standard",
-	"dependencies": {},
+	"dependencies": {
+		"neovim": "^4.9.0"
+	},
 	"scripts": {
 		"lint": "npx stylelint **/*.css",
 		"hlint": "npx htmlhint ./src/*.html"
