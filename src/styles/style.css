@@ -261,7 +261,6 @@ h3,
 /* NAV */
 .nav-title-elm {
   width: 350px;
-  margin: 11px 8px;
 }
 
 .nav-title {
@@ -269,20 +268,21 @@ h3,
   line-height: 1.2;
 }
 
-.f-cards {
+.row-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 -8px;
+  margin: 0 -15px;
+}
+
+.column-card {
+  display: flex;
+  flex: 1 0 350px;
+  margin: 10px 15px;
 }
 
 .card {
-  display: block;
-  width: 350px;
-  margin: 10px 8px;
-  padding: 24px 24px 40px;
-
-  text-align: left;
+  padding: 24px 24px 23px;
 }
 
 .card:hover {
@@ -339,24 +339,17 @@ h3,
 
 /* FOOTER */
 .footer-block {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   padding: 50px;
 
   background: var(--soft-dark);
 }
 
-.footer-title {
-  margin-top: auto;
-  margin-bottom: auto;
-
-  font-size: 36px;
-}
-
-.email-block {
+/* .email-block {
   position: relative;
   right: 55px;
-}
+} */
 
 .form-label {
   display: inline-block;
@@ -412,3 +405,19 @@ h3,
   font-size: 14px;
   line-height: 2.5;
 }
+
+.vertical-align {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* nav .column :nth-child(3n+1) {
+  margin-left: -15px;
+}
+nav .column :nth-child(3n) { 
+  margin-right: -15px;
+}  */
+
+/* nav .row {
+  margin: 0 -15px;
+} */
