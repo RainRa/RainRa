@@ -232,10 +232,6 @@ h3,
 }
 
 /* HEADER */
-.header-title {
-  position: relative;
-  z-index: 10;
-}
 
 .header-img {
   position: absolute;
