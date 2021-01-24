@@ -121,6 +121,10 @@ h3,
 }
 
 /* MARGINS and PADDINGS */
+.mb-8 {
+  margin-bottom: 8px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -355,7 +359,6 @@ h3,
 .input-field {
   width: 423px;
   height: 50px;
-  margin-bottom: 8px;
   padding: 15px;
 
   font-size: 18px;
