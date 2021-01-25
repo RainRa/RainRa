@@ -206,6 +206,10 @@ h3,
   color: var(--blue);
 }
 
+.color-brown {
+  color: var(--brown);
+}
+
 /* Background colors */
 .bg-white {
   background-color: var(--white);
