@@ -11,6 +11,7 @@
   --gray: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
+  --white-50: #d7ccc0;
   --main-font: "Open Sans", sans-serif;
   --heading-font: "Neucha", sans-serif;
 }
@@ -208,6 +209,10 @@ h3,
 
 .color-brown {
   color: var(--brown);
+}
+
+.color-white-50 {
+  color: var(--white-50);
 }
 
 /* Background colors */
