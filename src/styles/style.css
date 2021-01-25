@@ -160,8 +160,8 @@ h3,
   margin-bottom: 60px;
 }
 
-.mb-100 {
-  margin-bottom: 100px;
+.mb-93 {
+  margin-bottom: 93px;
 }
 
 .mb-200 {
@@ -226,8 +226,6 @@ h3,
 /* Background images */
 .bg-questions {
   position: relative;
-
-  overflow: hidden;
 }
 
 .bg-questions::before {
