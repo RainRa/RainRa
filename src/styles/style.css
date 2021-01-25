@@ -215,7 +215,6 @@ h3,
 }
 
 /* Background images */
-
 .bg-questions {
   position: relative;
 
@@ -238,11 +237,10 @@ h3,
 }
 
 /* HEADER */
-
 .header-img {
   position: absolute;
-  top: 35px;
-  left: 300px;
+  top: 55px;
+  right: -270px;
 
   height: 525px;
   object-fit: cover;
@@ -281,7 +279,7 @@ h3,
 }
 
 .card {
-  padding: 24px 24px 23px;
+  padding: 24px 24px;
 }
 
 .card:hover {
@@ -324,7 +322,9 @@ h3,
   width: calc(50% - 20px);
 }
 
-.symptom {
+.symptoms {
+  padding: 2px 12px;
+
   font-weight: bold;
   font-size: 16px;
   font-family: var(--main-font);
@@ -332,23 +332,12 @@ h3,
   text-transform: uppercase;
 }
 
-.symptom-line {
-  padding: 2px 12px;
-}
-
 /* FOOTER */
 .footer-block {
-  /* display: flex;
-  justify-content: space-between; */
   padding: 50px;
 
   background: var(--soft-dark);
 }
-
-/* .email-block {
-  position: relative;
-  right: 55px;
-} */
 
 .form-label {
   display: inline-block;
@@ -382,7 +371,7 @@ h3,
 
 .button-sent {
   display: flex;
-  width: 62px;
+  width: 70px;
   height: 50px;
 
   text-align: center;
