@@ -7,6 +7,7 @@
   --hover-orange: #ea7600;
   --soft-dark: #42413c;
   --dark: #2a2626;
+  --alt-dark: #212529;
   --gray: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
@@ -177,6 +178,10 @@ h3,
   color: var(--dark);
 }
 
+.color-alt-dark {
+  color: var(--alt-dark);
+}
+
 .color-white {
   color: var(--white);
 }
@@ -196,6 +201,7 @@ h3,
 .color-blue {
   color: var(--blue);
 }
+
 
 /* Background colors */
 .bg-white {
