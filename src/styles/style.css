@@ -84,6 +84,11 @@ h3,
   margin: 0 15px;
 }
 
+.vertical-align {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .button {
   display: inline-block;
   padding: 12px 24px;
@@ -430,9 +435,4 @@ h3,
 .footer-text {
   font-size: 14px;
   line-height: 2.5;
-}
-
-.vertical-align {
-  margin-top: auto;
-  margin-bottom: auto;
 }
