@@ -6,7 +6,8 @@
 
 🔗 Деплой:
 
-<a href="https://exquisite-melomakarona-9f1aec.netlify.app/" rel="nofollow">**Music Box(Главная)**</a> 
+<a href="https://exquisite-melomakarona-9f1aec.netlify.app/" rel="nofollow">**Music Box(Главная)**</a>
+
 <a href="https://exquisite-melomakarona-9f1aec.netlify.app/artist" rel="nofollow">**Music Box("Артист")**</a>
 
 📂 <a href="https://github.com/RainRa/layout-designer-project-lvl2" rel="nofollow">**Репозиторий**</a> 
